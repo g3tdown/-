@@ -4,8 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Скуфуслуги</title>
-    
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,72 +11,27 @@
   <header>
     <div class="logo">Скуфуслуги</div>
     <nav>
-      <button data-page="home" class="active">Главная</button>
-      <button data-page="services">Услуги</button>
-      <button data-page="documents">Документы</button>
-      <button data-page="applications">Заявления</button>
-      <button data-page="payments">Платежи</button>
-      <button data-page="support">Поддержка</button>
-      <button data-page="warning">Предупреждение</button>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="услуги.html">Услуги</a></li>
+        <li><a href="профиль.html">Профиль</a></li>
+        <li><a href="оплата.html">Оплата</a></li>
+        <li><a href="поддержка.html">Поддержка</a></li>
+        <li><a href="вход.html">Вход</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="page active">
-      <i class="fas fa-globe"></i>
-      <h2>Добро пожаловать</h2>
-      <p>Единый государственный портал получения цифровых услуг и документов.</p>
-    </section>
-
-    <section id="services" class="page">
-      <i class="fas fa-list-ul"></i>
-      <h2>Доступные услуги</h2>
-      <ul>
-        <li>Проверка данных</li>
-        <li>Запись на приём</li>
-        <li>Получение цифровых документов</li>
-        <li>Обновление информации</li>
-      </ul>
-    </section>
-
-    <section id="documents" class="page">
-      <i class="fas fa-file-lines"></i>
-      <h2>Ваши документы</h2>
-      <p>Получите выписки, сертификаты, уведомления. Всё — в цифровом виде, с гарантией юридической силы.</p>
-    </section>
-
-    <section id="applications" class="page">
-      <i class="fas fa-clipboard-check"></i>
-      <h2>Подача заявлений</h2>
-      <p>Заявления обрабатываются автоматически. Статус отображается в личном кабинете.</p>
-    </section>
-
-    <section id="payments" class="page">
-      <i class="fas fa-ruble-sign"></i>
-      <h2>Оплата услуг</h2>
-      <p>Быстрое и безопасное проведение госплатежей. Поддержка карт и госкошельков.</p>
-    </section>
-
-    <section id="support" class="page">
-      <i class="fas fa-circle-info"></i>
-      <h2>Техническая поддержка</h2>
-      <p>Email: support@skufuslugi.ru<br>Телефон: 8 800 35 35 85</p>
-      <h6>восемь восемсот три пять три пять восемь пять,<br> проще позвонить чем взять!</h6>
-    </section>
-
-    <section id="warning" class="page">
-      <i class="fa-solid fa-triangle-exclamation"></i>
-      <h2>Сайт — шуточный!</h2>
-      <p>Не воспринимайте всё всерьёз.</p>
+    <section class="card">
+      <h2>Добро пожаловать в Скуфуслуги</h2>
+      <p>Цифровой портал унылой, но необходимой бюрократии.</p>
     </section>
   </main>
 
-  <div class="wave"></div>
-
   <footer>
-    © 2025 Скуфуслуги. Все права защищены.
+    <p>&copy; 2025 Скуфуслуги</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
